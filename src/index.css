@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Google Sans Display";
+  src: url("https://db.onlinewebfonts.com/t/34dbcc4a950937fdbae2d1702309c5c6.eot");
+  src: url("https://db.onlinewebfonts.com/t/34dbcc4a950937fdbae2d1702309c5c6.eot?#iefix") format("embedded-opentype"),
+       url("https://db.onlinewebfonts.com/t/34dbcc4a950937fdbae2d1702309c5c6.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/34dbcc4a950937fdbae2d1702309c5c6.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/34dbcc4a950937fdbae2d1702309c5c6.ttf") format("truetype"),
+       url("https://db.onlinewebfonts.com/t/34dbcc4a950937fdbae2d1702309c5c6.svg#GoogleSansDisplay") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Google Sans Display", sans-serif;
+}
